@@ -196,9 +196,12 @@ body {
   --color-link: #ededed;
 }
 
-.demo-2,
-.demo-3 {
+.demo-2 {
   --color-link: #fbc966;
+}
+
+.demo-3 {
+  --color-link: #000000;
 }
 
 .demo-4 {
