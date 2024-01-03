@@ -3,15 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Fake 3D Effect with WebGL Shaders | iceland | Codrops</title>
-    <meta
-      name="description"
-      content="Demo of the tutorial on how to create a fake 3D image effect with WebGL shaders."
-    />
-    <meta
-      name="keywords"
-      content="webgl, 3d, image, shader, javascript, tutorial, demo, web development, effect"
-    />
     <meta name="author" content="Codrops" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/base.css" />
@@ -38,15 +29,15 @@
         );
     </script>
   </head>
-  <body class="demo-2">
+  <body class="demo-4">
     <main>
       <div class="message">Tilt your phone to see the effect.</div>
       <div class="frame">
         <div
           id="gl"
-          data-imageOriginal="img/movie8.png"
-          data-imageDepth="img/movie8_map.png"
-          data-horizontalThreshold="15"
+          data-imageOriginal="img/river.png"
+          data-imageDepth="img/river_map.png"
+          data-horizontalThreshold="35"
           data-verticalThreshold="25"
         ></div>
         <div class="frame__title-wrap">
@@ -55,16 +46,17 @@
         </div>
         <div class="frame__demos">
           <a href="index.html" class="frame__demo">italy</a>
-          <a href="index2.html" class="frame__demo frame__demo--current"
-            >iceland</a
-          >
+          <a href="index2.html" class="frame__demo">iceland</a>
           <a href="index3.html" class="frame__demo">Bolivia</a>
           <a href="index4.html" class="frame__demo">vietnam</a>
           <a href="index5.html" class="frame__demo">france</a>
           <a href="index6.html" class="frame__demo">moon</a>
+          <a href="index7.html" class="frame__demo frame__demo--current"
+            >river</a
+          >
           <a href="index7.html" class="frame__demo">river</a>
         </div>
-        <div class="frame__content">iceland</div>
+        <div class="frame__content">River</div>
       </div>
     </main>
     <script src="js/app.js"></script>
